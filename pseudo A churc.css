@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.my-wordHome {
+    display: inline-block;
+    color: #ffffff;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 50%, Transparent  50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .my-wordHome:hover {
+    cursor: pointer;
+    background-position: 100% 0;
+    color: rgb(0, 0, 0);
+  }
